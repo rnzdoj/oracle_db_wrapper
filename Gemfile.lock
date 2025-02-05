@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oracle_db_wrapper (0.1.0)
+    oracle_db_wrapper (1.0.0)
       activerecord-oracle_enhanced-adapter
       pg (~> 1.5.9)
       ruby-oci8
