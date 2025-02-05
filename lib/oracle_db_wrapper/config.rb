@@ -1,13 +1,6 @@
 module OracleDBWrapper
   class Config
-    @settings = {
-      adapter: "oracle_enhanced",
-      database: "db",
-      username: "username",
-      password: "password",
-      host: "host",
-      port: 1521
-    }
+    @settings = {}
 
     class << self
       attr_accessor :settings
